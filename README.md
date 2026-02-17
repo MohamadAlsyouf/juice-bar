@@ -36,24 +36,6 @@ _Experience the pure taste of freshly squeezed juices made with love — serving
 | 💚 **About**    | `/about`    | Story, values, team, and service area across LA & OC              |
 | 🎉 **Catering** | `/catering` | Packages (Basic, Premium, Ultimate) and booking inquiry form      |
 
----
-
-## 🧃 Menu Offerings
-
-| Juice                       | Price |
-| --------------------------- | ----- |
-| 🎋 Sugarcane Juice          | $x.99 |
-| 🍊 Orange Juice             | $x.99 |
-| 🥭 Mango Juice              | $x.99 |
-| 🍋 Lemon Juice              | $x.99 |
-| 🍃 Lemon & Mint Juice       | $x.99 |
-| 🍓 Strawberry & Lemon Juice | $x.49 |
-| 🍉 Watermelon Juice         | $x.99 |
-
-> Available in **Small** (12 oz), **Regular** (16 oz), and **Large** (24 oz).
-
----
-
 ## 🛠️ Tech Stack
 
 | Technology                                           | Purpose                 |
