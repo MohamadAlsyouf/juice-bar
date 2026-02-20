@@ -1,53 +1,60 @@
 function About() {
   const values = [
     {
-      title: 'Fresh Ingredients',
-      description: 'We source the freshest fruits daily from local California farms to ensure every juice is packed with natural goodness.',
-      icon: '🍊'
+      title: "Fresh Ingredients",
+      description:
+        "We source the freshest fruits daily from local California farms to ensure every juice is packed with natural goodness.",
+      icon: "🍊",
     },
     {
-      title: 'No Preservatives',
-      description: 'Our juices contain zero preservatives, artificial colors, or added sugars. Just pure, natural fruit.',
-      icon: '🌿'
+      title: "No Preservatives",
+      description:
+        "Our juices contain zero preservatives, artificial colors, or added sugars. Just pure, natural fruit.",
+      icon: "🌿",
     },
     {
-      title: 'Community First',
-      description: 'We believe in giving back. A portion of our proceeds supports local community programs and sustainable farming.',
-      icon: '❤️'
+      title: "Community First",
+      description:
+        "We believe in giving back. A portion of our proceeds supports local community programs and sustainable farming.",
+      icon: "❤️",
     },
     {
-      title: 'Sustainability',
-      description: 'We use eco-friendly packaging and work with farms that practice sustainable agriculture.',
-      icon: '♻️'
-    }
-  ]
+      title: "Sustainability",
+      description:
+        "We use eco-friendly packaging and work with farms that practice sustainable agriculture.",
+      icon: "♻️",
+    },
+  ];
 
   const team = [
     {
-      name: 'Maria Rodriguez',
-      role: 'Founder & Head Juicer',
-      bio: 'Maria started Juice Bar with a simple mission: bring fresh, healthy juices to her community.'
+      name: "Sondos",
+      role: "Founder & Head Juicer",
+      bio: "Sondos started Juice Bar with a simple mission: bring fresh, healthy juices to their community.",
     },
     {
-      name: 'David Chen',
-      role: 'Operations Manager',
-      bio: 'David ensures every customer gets the freshest juice experience possible.'
+      name: "Saddam",
+      role: "Operations Manager",
+      bio: "Saddam ensures every customer gets the freshest juice experience possible.",
     },
     {
-      name: 'Sarah Johnson',
-      role: 'Catering Coordinator',
-      bio: 'Sarah brings the Juice Bar experience to events across LA and Orange County.'
-    }
-  ]
+      name: "Mohamad",
+      role: "Web Developer",
+      bio: "Mohamad is the web developer and tech support for the website.",
+    },
+  ];
 
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-green-600 to-green-500 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">About Us</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
+            About Us
+          </h1>
           <p className="text-xl text-green-100 max-w-3xl mx-auto">
-            Born in Anaheim, serving Southern California with fresh, delicious juices made with love.
+            Born in Anaheim, serving Southern California with fresh, delicious
+            juices made with love.
           </p>
         </div>
       </div>
@@ -57,24 +64,28 @@ function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Our Story</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
+                Our Story
+              </h2>
               <div className="space-y-4 text-gray-600">
                 <p>
-                  Juice Bar started in 2018 with a simple idea: everyone deserves access to fresh,
-                  healthy, and delicious juices. Our founder, Maria Rodriguez, grew up in Anaheim
-                  surrounded by California's incredible produce and wanted to share that bounty
-                  with her community.
+                  Juice Bar started in 2018 with a simple idea: everyone
+                  deserves access to fresh, healthy, and delicious juices. Our
+                  founder, Sondos and Saddam, have lived in Anaheim surrounded
+                  by California's incredible produce and wanted to share that
+                  bounty with their community.
                 </p>
                 <p>
-                  What began as a small cart at the local farmers' market quickly grew into a
-                  beloved local business. Today, we proudly serve customers throughout Los Angeles
-                  and Orange County, bringing the same commitment to freshness and quality that
-                  we started with.
+                  What began as a small cart at the local farmers' market
+                  quickly grew into a beloved local business. Today, we proudly
+                  serve customers throughout Los Angeles and Orange County,
+                  bringing the same commitment to freshness and quality that we
+                  started with.
                 </p>
                 <p>
-                  Every juice we make is squeezed fresh to order. We never use concentrates,
-                  preservatives, or added sugars. When you drink our juice, you're tasting
-                  pure, natural fruit at its finest.
+                  Every juice we make is squeezed fresh to order. We never use
+                  concentrates, preservatives, or added sugars. When you drink
+                  our juice, you're tasting pure, natural fruit at its finest.
                 </p>
               </div>
             </div>
@@ -82,7 +93,9 @@ function About() {
               <div className="aspect-square rounded-2xl bg-gradient-to-br from-green-100 to-green-200 p-8 flex items-center justify-center">
                 <div className="text-center">
                   <div className="text-8xl mb-4">🍹</div>
-                  <p className="text-2xl font-bold text-green-700">Since 2018</p>
+                  <p className="text-2xl font-bold text-green-700">
+                    Since 2018
+                  </p>
                   <p className="text-green-600">Serving Fresh Juices</p>
                 </div>
               </div>
@@ -108,7 +121,9 @@ function About() {
                 className="bg-white rounded-2xl p-6 text-center shadow-md hover:shadow-xl transition-shadow"
               >
                 <span className="text-5xl block mb-4">{value.icon}</span>
-                <h3 className="text-xl font-semibold text-gray-800 mb-3">{value.title}</h3>
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">
+                  {value.title}
+                </h3>
                 <p className="text-gray-600 text-sm">{value.description}</p>
               </div>
             ))}
@@ -126,12 +141,20 @@ function About() {
                   Serving LA & Orange County
                 </h2>
                 <p className="text-white/90 text-lg mb-6">
-                  Based in the heart of Anaheim, we're proud to serve fresh juices across
-                  all of Los Angeles and Orange County. Whether you're in Downtown LA,
-                  Irvine, Long Beach, or anywhere in between, we've got you covered.
+                  Based in the heart of Anaheim, we're proud to serve fresh
+                  juices across all of Los Angeles and Orange County. Whether
+                  you're in Downtown LA, Irvine, Long Beach, or anywhere in
+                  between, we've got you covered.
                 </p>
                 <div className="flex flex-wrap gap-3">
-                  {['Anaheim', 'Los Angeles', 'Irvine', 'Santa Ana', 'Long Beach', 'Pasadena'].map((city) => (
+                  {[
+                    "Anaheim",
+                    "Los Angeles",
+                    "Irvine",
+                    "Santa Ana",
+                    "Long Beach",
+                    "Pasadena",
+                  ].map((city) => (
                     <span
                       key={city}
                       className="bg-white/20 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm"
@@ -143,11 +166,28 @@ function About() {
               </div>
               <div className="text-center">
                 <div className="inline-block bg-white/20 backdrop-blur-sm rounded-2xl p-8">
-                  <svg className="w-32 h-32 mx-auto text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  <svg
+                    className="w-32 h-32 mx-auto text-white"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={1.5}
+                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                    />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={1.5}
+                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
                   </svg>
-                  <p className="text-white font-semibold mt-4">We Deliver & Cater</p>
+                  <p className="text-white font-semibold mt-4">
+                    We Deliver & Cater
+                  </p>
                 </div>
               </div>
             </div>
@@ -172,7 +212,9 @@ function About() {
                     {member.name.charAt(0)}
                   </span>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-800">{member.name}</h3>
+                <h3 className="text-xl font-semibold text-gray-800">
+                  {member.name}
+                </h3>
                 <p className="text-green-600 font-medium mb-3">{member.role}</p>
                 <p className="text-gray-600 text-sm">{member.bio}</p>
               </div>
@@ -181,7 +223,7 @@ function About() {
         </div>
       </section>
     </div>
-  )
+  );
 }
 
-export default About
+export default About;
